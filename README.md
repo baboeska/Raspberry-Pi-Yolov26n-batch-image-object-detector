@@ -7,3 +7,7 @@ If you have issues, please consult with your favourite AI code helper, ideally t
 Currently untested on Pi, it should work, as variants work on rockchip and intel/amd.
 
 If you try it and it doesn't work, or needs minor work, please raise an issue/discussion saying what you needed to do for it to work well :)
+
+point --model at the directory, not the .xml, and export with nms=False to dodge the mask-shape error.
+
+Thanks and regards to Deepseek ai, Chatgpt, and Google Search AI, all of which contributed to, and helped make this possible.
