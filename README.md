@@ -3,3 +3,5 @@ No warranty at all, if you use/modify this code, please share it further via git
 If you have issues, please consult with your favourite AI code helper, ideally this should be working for you in half an hour or less.
 
 Currently untested on Pi, it should work, as variants work on rockchip and intel/amd.
+
+If you try it and it doesn't work, or needs minor work, please raise an issue/discussion saying what you needed to do for it to work well :)
