@@ -15,8 +15,7 @@ Part of [AI BIPOD](https://github.com/baboeska/bipod)
 | Raspberry Pi 4 | YOLO26n + OpenVINO | ~3–5 FPS (estimated) |
 
 ## Status
-
-Tested on Pi 5 (YOLO26n). Should work on Pi 4 with lower throughput.
+ Pi 5 (YOLO26n). Should work on Pi 4 with lower throughput.
 Variants run on Rockchip and Intel/AMD and NVIDIA tensorRT — if you hit issues, please raise
 an issue/discussion saying what you needed to do to make it work.
 
