@@ -17,7 +17,7 @@ Part of [AI BIPOD](https://github.com/baboeska/bipod)
 ## Status
 
 Tested on Pi 5 (YOLO26n). Should work on Pi 4 with lower throughput.
-Variants run on Rockchip and Intel/AMD — if you hit issues, please raise
+Variants run on Rockchip and Intel/AMD and NVIDIA tensorRT — if you hit issues, please raise
 an issue/discussion saying what you needed to do to make it work.
 
 ## Requirements
@@ -65,12 +65,12 @@ Usage
 bash
 
 # Dry run (validate on a small sample first)
-    python bipod-py.py \
+    python bipod-pi.py \
     -i ~/Pictures -o ~/Pictures_Sorted \
     -m ./yolo26n_openvino_model/ --dry-run
 
 # Real run
-    python bipod-py.py \
+    pythonbipod-pi.py \
     -i ~/Pictures -o ~/Pictures_Sorted \
     -m ./yolo26n_openvino_model/ --conf 0.4
 
@@ -107,7 +107,7 @@ Model files are not included; users export or download them separately and
 are responsible for AGPL-3.0 compliance when they use or redistribute them.
 
 No warranty at all. If you use or modify this code, please share it further
-via GitHub or other means.
+via GitHub or other means. also, do good things.
 
 If you have issues, consult your favourite AI code helper — ideally this should
 be working for you in half an hour or less.
