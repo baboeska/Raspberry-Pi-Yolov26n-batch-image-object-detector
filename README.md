@@ -1,4 +1,4 @@
-8# BIPOD-Pi
+# BIPOD-Pi
 
 Batch image analysis and object identification processor for Raspberry Pi 4/5.
 
