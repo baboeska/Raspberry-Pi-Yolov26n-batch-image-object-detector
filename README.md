@@ -57,7 +57,6 @@ Export the model
 The .pt → OpenVINO export can be done on the Pi itself (slower) or on a
 more powerful machine and copied over (faster). The output is architecture-
 agnostic, so export on a desktop and scp the directory across if you prefer.
-bash
 
     python3 - <<'EOF'
     from ultralytics import YOLO
@@ -71,7 +70,6 @@ yolo26n.xml, yolo26n.bin, and metadata.yaml.
 nms=False matters — without it you'll hit the mask-shape error.
 And point --model at the directory, not the .xml.
 Usage
-bash
 
 # Dry run (validate on a small sample first)
     python bipod-pi.py \
