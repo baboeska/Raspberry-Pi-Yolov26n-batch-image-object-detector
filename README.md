@@ -1,4 +1,4 @@
-# BIPOD-Pi
+8# BIPOD-Pi
 
 Batch image analysis and object identification processor for Raspberry Pi 4/5.
 
@@ -87,7 +87,7 @@ Known pitfalls
 
     Pi 5 thermal throttling. A long batch will hit the thermal limit without
     a heatsink or fan. Throughput drops from ~10 FPS to ~5 FPS once throttled.
-    A £5 heatsink + fan is worth it.
+    A heatsink + fan is worth it.
 
     Use a fast SD card or USB SSD. A slow card caps throughput at ~4–5 FPS
     regardless of the model.
