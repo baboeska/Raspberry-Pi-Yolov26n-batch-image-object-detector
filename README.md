@@ -39,6 +39,16 @@ an issue/discussion saying what you needed to do to make it work.
 # Install core dependencies
     pip install --upgrade pip
     pip install ultralytics openvino opencv-python tqdm
+    
+    python3 -m pip install --upgrade \
+    ultralytics \
+    "ultralytics[export-openvino]" \
+    openvino \
+    opencv-python \
+    pillow \
+    tqdm \
+    supervision
+
 
 
 
